@@ -38,4 +38,3 @@ amplify-build-config.json
 amplify-gradle-config.json
 amplifyxc.config
 .env
-package-lock.json
