@@ -10,7 +10,8 @@ frontend:
         - echo "REACT_APP_IDENTITY_POOL_ID=$IDENTITY_POOL_ID" >> .env
         - echo "REACT_APP_USER_POOL_CLIENT_ID=$USER_POOL_CLIENT_ID" >> .env
         - echo "REACT_APP_USER_POOL_ID=$USER_POOL_ID" >> .env
-        - echo "REACT_APP_FIREHOSE_NAME=$FIREHOSE_NAME" >> .env
+        - echo "REACT_APP_FIREHOSE_LANGUAGE_NAME=$FIREHOSE_LANGUAGE_NAME" >> .env
+        - echo "REACT_APP_FIREHOSE_SENTIMENT_NAME=$FIREHOSE_SENTIMENT_NAME" >> .env
         - npm run build
   artifacts:
     baseDirectory: build
